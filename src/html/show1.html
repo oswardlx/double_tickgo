@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript"
+            src="../js/ajax.js"></script>
+    <script type="text/javascript"
+            src="../js/jquery-1.4.3.js"></script>
+    <script type="text/javascript"
+            src="../js/show1_util.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            index();
+
+        }
+    </script>
+    <style>
+        div {
+            float: left;
+        }
+
+        body {
+            background-image: url(../images/3.png);
+            background-size: 100px 100px;
+            background-repeat: repeat;
+            /*background-repeat: repeat-y;*/
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+
+        #dmaster {
+            width:500px;
+            height:360px;
+            border: 2px solid #060c06;
+        }
+        #d1{
+            padding:10px;
+            margin:20px;
+        }
+        #d2{
+            padding:10px;
+            margin:20px;
+        }
+        table{
+            border:1px solid #060c06
+        }
+    </style>
+
+</head>
+<body>
+<div id ="dmaster">
+    <div id="d1">
+        <table>
+            <thead>
+            <tr>
+                <td>attribute</td>
+                <td>mount</td>
+            </tr>
+            </thead>
+            <tbody id="tb1">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="d2">
+        <table>
+            <thread>
+                <tr>
+                    <td>order</td>
+                    <td>list</td>
+                </tr>
+            </thread>
+            <tbody id="tb2">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
